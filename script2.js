@@ -33,12 +33,6 @@ const ejercicio2 = [
     },
   ];
   
-
-/*
-Funcion que verifica si son mayores de edad y si son 
-familiares de Ramon.
-@param persona 
-*/
 function admitir(persona){
         if(persona.edad >= 18 && persona.esFamiliar == true){
             return(console.log(persona.nombre));
